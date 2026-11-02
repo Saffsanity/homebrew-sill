@@ -6,7 +6,8 @@ Apple Pencil. This tap installs Sill for Mac, the free menu bar app, with
 [Homebrew](https://brew.sh). Sill for iPhone and iPad is free on the
 [App Store](https://apps.apple.com/app/id6816359860).
 
-Sill for Mac needs a Mac with Apple silicon, on macOS 14 or later.
+Sill for Mac needs a Mac with Apple silicon or an Intel processor, on macOS 14
+or later.
 
 ## Install
 
