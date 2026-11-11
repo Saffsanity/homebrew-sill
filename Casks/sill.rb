@@ -1,6 +1,6 @@
 cask "sill" do
-  version "0.6.0"
-  sha256 "de1f5afe1176b419af90743f8beb71112bf3f2eee905f7956bcce96a0149a46d"
+  version "0.6.1"
+  sha256 "191f5bb769015d3f96661f4cb43a74ad146163fbe7d2381e2e4e603e39eae72b"
 
   url "https://github.com/Saffsanity/sill/releases/download/v#{version}/Sill.dmg"
   name "Sill"
