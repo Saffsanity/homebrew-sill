@@ -18,6 +18,7 @@ cask "sill" do
   app "Sill.app"
 
   zap trash: [
+    "~/Library/Caches/me.saffer.sill.mac",
     "~/Library/Logs/Sill",
     "~/Library/Preferences/me.saffer.sill.mac.plist",
   ]

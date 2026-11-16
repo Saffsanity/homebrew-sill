@@ -46,6 +46,11 @@ brew upgrade --cask sill
 
 Your settings, permissions and paired devices stay.
 
+From 0.6.2 on, Sill for Mac can also update itself, with Update Now in
+Settings › General, or Automatically update Sill there, which is off unless you
+turn it on. With Homebrew 7, `brew upgrade` still upgrades Sill whenever the
+Sill.app you have is older than the cask.
+
 ## Uninstall
 
 Before you quit Sill for the last time, remove your devices in Sill's
@@ -56,7 +61,8 @@ Mac's keychain, where only Sill can read them. Then quit Sill and run:
 brew uninstall --cask sill
 ```
 
-With `--zap`, Homebrew also removes Sill's settings and its log.
+With `--zap`, Homebrew also removes Sill's settings, its log and its cache
+folder, where Update Now keeps its notes.
 
 ## Homebrew's main repository
 
